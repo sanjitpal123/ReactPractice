@@ -18,6 +18,7 @@ function App() {
     SetChecked((prev) => ({ ...prev, [id]: true }));
   }
 
+  
   return (
     <div>
       {obj1.map((item) => (

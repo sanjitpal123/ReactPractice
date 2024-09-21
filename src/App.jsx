@@ -8,7 +8,7 @@ function App() {
   ];
 
   const [state, setState] = useState({});
-  const [check, SetChecked] = useState({});
+  const [check, SetChecked] = useState({}); 
 
   function HandleDisplay(id) {
     const f = obj1.find((item) => item.id === id);
